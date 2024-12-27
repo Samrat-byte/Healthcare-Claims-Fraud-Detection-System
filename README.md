@@ -9,7 +9,6 @@ Healthcare fraud occurs due to collusion of providers, physicians and/ or benefi
 
 * Ensemble Machine Learning algorithm-based solution that can assist in the decision-making process by predicting the likelihood of healthcare fraud to prevent or mitigate losses.
 * Leveraging Predictive modeling to detect healthcare fraud can reduce the costs of investigation and can ensure timely payouts.
-* Mphasis HyperGraf is an omni-channel customer 360 analytics solution. Need customized Deep Learning/NLP solutions? Get in touch!
 
 ## Amazon Marketplace Link
 The product can be found [here](https://aws.amazon.com/marketplace/pp/prodview-psc7x6j4v6mgq)
