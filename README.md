@@ -1,11 +1,33 @@
-# Healthcare-Claims-Fraud-Detection-System
-This project focuses on analyzing patterns to detect and predict potential fraudulent claims, enabling a better understanding of an entity's future behavior. By identifying the likelihood of healthcare fraud, insurance companies can take timely actions to prevent or minimize financial losses.
+# 🚀 Project Overview
+Fraudulent healthcare claims cost the system billions annually. While traditional fraud detection models rely heavily on structured data (e.g., claim amount, diagnosis codes), a large portion of valuable insights often remains hidden in unstructured fields like treatment descriptions and physician notes.
 
-## Overview
+This project addresses that gap by building an ensemble system that combines:
 
-Healthcare fraud occurs due to collusion of providers, physicians and/ or beneficiaries through misuse of medical insurance systems. Manual detection of frauds in healthcare industry is a strenuous task. This solution involves scrutiny and prediction of potential fraudulent claims based on the analysis of patterns to comprehend the entity's future behavior. Through timely actions, insurance companies can use the likelihood of healthcare fraud to prevent or mitigate losses.
+Classical ML models trained on structured data.
 
-## Highlight 
+A fine-tuned BERT model for unstructured clinical text.
 
-* Ensemble Machine Learning algorithm-based solution that can assist in the decision-making process by predicting the likelihood of healthcare fraud to prevent or mitigate losses.
-* Leveraging Predictive modeling to detect healthcare fraud can reduce the costs of investigation and can ensure timely payouts.
+A meta-classifier that stacks both outputs for final fraud prediction.
+
+## 🔍 Key Features
+📊 Exploratory Data Analysis (EDA): Understanding trends in claim frequency, provider behavior, diagnosis distributions, and class imbalances.
+
+🛠️ Feature Engineering: Derived risk features from provider history, claim amounts, and ICD/CPT code patterns.
+
+🤖 ML Models: Trained and evaluated Logistic Regression, Random Forest, and Decision Trees for baseline performance.
+
+💬 NLP with BERT: Fine-tuned BERT on physician/treatment notes to predict the fraud probability from unstructured text.
+
+🔗 Model Stacking: Combined structured model predictions with BERT outputs into a meta-classifier for enhanced performance.
+
+✅ Evaluation Metrics: Focused on Recall and AUC-ROC due to the criticality of catching fraud early.
+
+## 📈 Results
+Final Model: Meta-classifier combining structured + unstructured models
+
+Recall: ~92%
+
+AUC-ROC: 0.95
+
+# ⚠️ Prioritized high-risk claim detection to improve audit efficiency and resource allocation.
+
